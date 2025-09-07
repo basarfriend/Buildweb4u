@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Webbuild4u - Stunning websites that convert visitors into customers. Affordable web design, SEO, e-commerce and more.">
+  <title>Webbuild4u</title>
+  <style>
+    /* ---------------------------
+       RESET & BASE STYLES
+    ---------------------------- */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    img {
+      max-width: 100%;
+      display: block;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    
+    /* ---------------------------
+       HEADER
+    ---------------------------- */
+    header {
+      background: linear-gradient(135deg, #0078ff, #005ecc);
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 140px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+    header h2 {
+      font-weight: 400;
+      font-size: 1.1rem;
+    }
+    
+    /* ---------------------------
+       MAIN SECTION
+    ---------------------------- */
+    main {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    h2.section-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #0078ff;
+      margin-bottom: 20px;
+      position: relative;
+    }
+    h2.section-title::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #0078ff;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* ---------------------------
+       PROJECTS
+    ---------------------------- */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .project-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-6px);
+    }
+    .project-card p {
+      margin: 12px 0;
+      font-weight: 600;
+    }
+
+    /* ---------------------------
+       PRICING
+    ---------------------------- */
+    .pricing {
+      text-align: center;
+    }
+    .pricing-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #fff;
+      padding: 30px 20px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      flex: 1;
+      max-width: 300px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 15px 0;
+      color: #0078ff;
+    }
+    .features {
+      list-style: none;
+      margin: 20px 0;
+      text-align: left;
+      padding-left: 0;
+    }
+    .features li {
+      margin: 10px 0;
+      padding-left: 28px;
+      position: relative;
+    }
+    .features li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: green;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #0078ff;
+      color: #fff;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+      font-weight: 600;
+    }
+    .btn:hover {
+      background: #005ecc;
+    }
+
+    /* ---------------------------
+       FOOTER
+    ---------------------------- */
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer h2 {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    footer a {
+      color: #fff;
+      background: #0078ff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 15px;
+      transition: background 0.3s;
+    }
+    footer a:hover {
+      background: #005ecc;
+    }
+    .contact-info a {
+      color: #ccc;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Yhvl6ge-X5etIa6qkDv58DMJmmz4IhpO1I_mfFo79g&s" alt="Webbuild4u Logo" width=>
+    <h1>We Create Stunning Websites(THIS IS ONLY PROJECT)</h1>
+    <h2>Convert Your Visitors into Customers | By B. Laique</h2>
+  </header>
+
+  <main>
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="section-title">Our Projects</h2>
+      <div class="projects">
+        <article class="project-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx9fvwTTo2w1fKcQnogiqhteYU-Up-8MNCICtEpwJ12ASq_EDH4Zl19e4&s=10" alt="E-commerce website design sample">
+          <p>E-commerce Website</p>
+        </article>
+        <article class="project-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBM_FBmvNv3BqibK6JnVeXPBrSAKykxU9gvP7PXW5BF1WRerhhrbmW5GAZ&s=10" alt="Second e-commerce site example">
+          <p>E-commerce Website (Variant)</p>
+        </article>
+        <article class="project-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5v6qPGTdsYFhCRpCs9W5AwA4gl_bKmVFFOXt_-YgIHXNmiuGnZuh5-7jh&s=10" alt="App store UI project">
+          <p>App Store Project</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section class="pricing" id="pricing">
+      <h2 class="section-title">Affordable Plans for Every Need</h2>
+      <p>Choose the perfect plan that suits your business.</p>
+      
+      <div class="pricing-cards">
+        <!-- Basic -->
+        <div class="card">
+          <h3>Basic</h3>
+          <p class="price">₹1,999</p>
+          <ul class="features">
+            <li>3 Pages</li>
+            <li>Mobile Friendly</li>
+            <li>Basic SEO</li>
+          </ul>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXpA4U1qaUy2Qhq5l1fuLHAZdKF789-w3k7Sykmdor-4fgQw/viewform?usp=header" class="btn">Get Started</a>
+        </div>
+        
+        <!-- Standard -->
+        <div class="card">
+          <h3>Standard</h3>
+          <p class="price">₹4,999</p>
+          <ul class="features">
+            <li>5 Pages</li>
+            <li>Mobile Friendly</li>
+            <li>SEO Optimized</li>
+            <li>Contact Form</li>
+          </ul>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXpA4U1qaUy2Qhq5l1fuLHAZdKF789-w3k7Sykmdor-4fgQw/viewform?usp=header" class="btn">Get Started</a>
+        </div>
+        
+        <!-- Premium -->
+        <div class="card">
+          <h3>Premium</h3>
+          <p class="price">₹14,999</p>
+          <ul class="features">
+            <li>Unlimited Pages</li>
+            <li>E-commerce Integration</li>
+            <li>SEO Optimized</li>
+            <li>Priority Support</li>
+          </ul>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXpA4U1qaUy2Qhq5l1fuLHAZdKF789-w3k7Sykmdor-4fgQw/viewform?usp=header" class="btn">Get Started</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p class="contact-info">📞 Phone: <a href="tel:9153485299">9153485299</a></p>
+    <p class="contact-info">📧 Email: <a href="mailto:basarfriend9@gmail.com">basarfriend9@gmail.com</a></p>
+    <p>&copy; 2025 Webbuild4u. All Rights Reserved.</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXpA4U1qaUy2Qhq5l1fuLHAZdKF789-w3k7Sykmdor-4fgQw/viewform?usp=header">Create Website</a>
+  </footer>
+
+</body>
+</html>
